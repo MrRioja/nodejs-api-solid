@@ -17,11 +17,11 @@
 
 ## Sobre
 
-🚧 Em construção 🚧
+Projeto desenvolvido durante o módulo III do bootcamp Ignite da Rocketseat cujo objetivo foi utilizar na pratica conceitos do SOLID, design patterns, Docker, JWT, Refresh Token, RBAC e outros conceitos da programação.
 
 ## API SOLID
 
-🚧 Em construção 🚧
+Para utilizar conceitos do SOLID, Design Patterns, Docker, JWT e Refresh Token, RBAC e diversos outros conceitos, surgiu esse projeto que é uma aplicação para check-ins em academias.
 
 ## Instalação
 
@@ -44,9 +44,9 @@ $ npm install
 $ yarn
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+$ npm run start:dev
 # Caso prefira usar o Yarn execute o comando abaixo
-$ yarn dev
+$ yarn start:dev
 
 # O servidor iniciará na porta 3333 ou na porta definida no arquivo .env na variável APP_PORT - acesse <http://localhost:3333>
 ```
