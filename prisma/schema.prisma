@@ -23,11 +23,11 @@ model User {
 }
 
 model CheckIn {
-  id           String   @id @default(uuid())
+  id           String    @id @default(uuid())
   user_id      String
   gym_id       String
-  validated_at DateTime
-  created_at   DateTime @default(now())
+  validated_at DateTime?
+  created_at   DateTime  @default(now())
 
   user User @relation(fields: [user_id], references: [id])
   gym  Gym  @relation(fields: [gym_id], references: [id])
