@@ -7,7 +7,7 @@ export async function profile(req: FastifyRequest, reply: FastifyReply) {
 
   const { user } = await getUserProfileUseCase.execute({ userId: req.user.sub })
 
-  return reply.status(201).send({
+  return reply.status(200).send({
     user: {
       ...user,
       password_hash: undefined,
