@@ -26,7 +26,7 @@ Para utilizar conceitos do SOLID, Design Patterns, Docker, JWT e Refresh Token, 
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [Docker](https://www.docker.com/).
 Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 ### 🎲 Rodando o Back End (servidor)
@@ -48,7 +48,17 @@ $ npm run start:dev
 # Caso prefira usar o Yarn execute o comando abaixo
 $ yarn start:dev
 
-# O servidor iniciará na porta 3333 ou na porta definida no arquivo .env na variável APP_PORT - acesse <http://localhost:3333>
+# Execute os testes unitários da aplicação
+$ npm run test
+# Caso prefira usar o Yarn execute o comando abaixo
+$ yarn test
+
+# Execute os testes E2E da aplicação
+$ npm run test:e2e
+# Caso prefira usar o Yarn execute o comando abaixo
+$ yarn test:e2e
+
+# O servidor iniciará na porta 3333 ou na porta definida no arquivo .env na variável PORT - acesse <http://localhost:3333>
 ```
 
 ## Tecnologias
