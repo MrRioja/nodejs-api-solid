@@ -128,6 +128,10 @@ Por fim, o ultimo capitulo teve como objetivo a criação de esteiras de CI e CD
 - [x] Execução de testes unitários no CI.
 - [x] Execução de testes E2E no CI.
 
+As requisições para testar a API estão disponíveis no botão abaixo e o link para acessar a API no ar está na descrição do repositório:
+
+[![Run in Insomnia](https://insomnia.rest/images/run.svg)](https://github.com/MrRioja/nodejs-api-solid/blob/10b0c418a732268a25346ecddd7592219191ed73/.github/requests-collection.json)
+
 ## Instalação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
